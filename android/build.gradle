@@ -28,6 +28,7 @@ apply plugin: 'kotlin-parcelize'
 apply plugin: 'maven-publish'
 
 android {
+    namespace 'co.tamara.sdk'  // Add this line
     compileSdkVersion 34
 
     defaultConfig {
